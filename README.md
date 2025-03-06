@@ -1,7 +1,33 @@
-[![license](https://img.shields.io/github/license/SantosVilanculos/configuration)](https://github.com/SantosVilanculos/configuration/blob/main/LICENSE)
+[![license](https://img.shields.io/github/license/SantosVilanculos/dotfiles)](https://github.com/SantosVilanculos/dotfiles/blob/main/LICENSE)
 
 ![](./screenshot.png)
 
+## required
+
+### linux
+
 ```sh
-chmod +x ./install.sh && ./install.sh
+sudo apt-get install stow
+```
+
+## configuration
+
+### android/linux
+
+```sh
+chmod +x ./install.sh ./uninstall.sh
+```
+
+## usage
+
+### install
+
+```sh
+./install.sh
+```
+
+### uninstall
+
+```sh
+./uninstall.sh
 ```
