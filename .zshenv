@@ -70,3 +70,8 @@ fi
 if [ -s "/usr/share/doc/fzf/examples/completion.zsh" ]; then
   source "/usr/share/doc/fzf/examples/completion.zsh"
 fi
+
+# ---
+if [ -n "$(command -v direnv)" ]; then
+  eval "$(direnv hook zsh)"
+fi
