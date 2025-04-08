@@ -10,10 +10,12 @@ if [[ "$OSTYPE" == linux-android* ]]; then
   ln -fnsv "$WORKDIR/.local/bin/update" "$HOME/.local/bin/update"
 
 elif [[ "$OSTYPE" == linux-gnu* ]]; then
-  mkdir -p "$HOME/.config/Code/User"
-  mkdir -p "$HOME/.config/gh"
-  mkdir -p "$HOME/.nvm"
-  mkdir -p "$HOME/.vim"
+  mkdir -pv "$HOME/.config/Code/User"
+  mkdir -pv "$HOME/.local/bin"
+  mkdir -pv "$HOME/.local/share/backgrounds"
+  mkdir -pv "$HOME/.config/gh"
+  mkdir -pv "$HOME/.nvm"
+  mkdir -pv "$HOME/.vim"
 
   stow -d "$WORKDIR" -t "$HOME" -R -v "./"
 
