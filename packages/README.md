@@ -3,14 +3,13 @@
 ### export
 
 ```sh
-./export code
+code --list-extensions > ./code.txt
 ```
 
 ### import
 
 ```sh
 ./import code
-
 ```
 
 ## flatpak
@@ -18,7 +17,7 @@
 ### export
 
 ```sh
-./export flatpak
+flatpak list --columns=application > ./flatpak.txt
 ```
 
 ### import
