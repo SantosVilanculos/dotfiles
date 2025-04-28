@@ -9,7 +9,7 @@ code --list-extensions > ./code.txt
 ### import
 
 ```sh
-./import code
+./install  code
 ```
 
 ## flatpak
@@ -23,7 +23,7 @@ flatpak list --columns=application > ./flatpak.txt
 ### import
 
 ```sh
-./import flatpak
+./install flatpak
 ```
 
 ## gnome-extensions
