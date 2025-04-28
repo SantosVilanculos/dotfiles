@@ -11,9 +11,9 @@ if [[ "$OSTYPE" == linux-android* ]]; then
 
 elif [[ "$OSTYPE" == linux-gnu* ]]; then
   mkdir -pv "$HOME/.config/Code/User"
+  mkdir -pv "$HOME/.config/gh"
   mkdir -pv "$HOME/.local/bin"
   mkdir -pv "$HOME/.local/share/backgrounds"
-  mkdir -pv "$HOME/.config/gh"
   mkdir -pv "$HOME/.nvm"
   mkdir -pv "$HOME/.vim"
 
