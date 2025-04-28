@@ -21,5 +21,6 @@ elif [[ "$OSTYPE" == linux-gnu* ]]; then
 
 elif [[ "$OSTYPE" == cygwin* || "$OSTYPE" == msys* ]]; then
   mkdir -p "$HOME/AppData/Roaming/Code/User"
+  cp -v "$WORKDIR/.config/Code/User/keybindings.json" "$HOME/AppData/Roaming/Code/User/keybindings.json"
   cp -v "$WORKDIR/.config/Code/User/settings.json" "$HOME/AppData/Roaming/Code/User/settings.json"
 fi
