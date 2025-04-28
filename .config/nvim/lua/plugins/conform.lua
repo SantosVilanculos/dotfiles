@@ -12,7 +12,7 @@ return {
         css = { "prettier" },
         html = { "prettier" },
         javascript = { "prettier" },
-        json = { "jq" },
+        json = { "prettier" },
         lua = { "stylua" },
         php = { "pint" },
         python = { "autoflake", "isort", "black", lsp_format = "never" },

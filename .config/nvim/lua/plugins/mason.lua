@@ -10,9 +10,6 @@ return {
         "shfmt",
         -- blade
         "blade-formatter",
-        -- json|jsonc
-        "json-lsp",
-        "jq",
         -- lua
         "lua-language-server",
         "stylua",
@@ -29,12 +26,13 @@ return {
         "black",
         -- yaml
         "yaml-language-server",
-        -- css|html|javacript|typescript
+        -- css|html|javacript|json|jsonc|typescript
         "prettier",
         "eslint_d",
         "html-lsp",
         "htmlhint",
         "css-lsp",
+        "json-lsp",
         "tailwindcss-language-server",
         "typescript-language-server",
         "vue-language-server",
