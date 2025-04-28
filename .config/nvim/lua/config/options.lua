@@ -7,6 +7,8 @@ vim.g.lazyvim_picker = "telescope"
 vim.g.lazyvim_php_lsp = "intelephense"
 vim.g.lazyvim_python_lsp = "pyright"
 
+vim.g.root_spec = { "cwd" }
+
 -- vim.o.winbar = "%=%m %f"
 -- vim.o.winbar = "%=%m %t"
 -- vim.o.relativenumber = false
@@ -16,6 +18,6 @@ vim.o.backup = false
 vim.o.writebackup = false
 vim.o.undofile = true
 vim.o.swapfile = false
--- vim.o.backupdir = '/tmp/'
+-- vim.o.backupdir = "/tmp/"
 vim.o.undodir = "/tmp/"
 -- vim.o.directory = "/tmp/"
