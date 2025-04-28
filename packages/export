@@ -1,0 +1,30 @@
+#!/usr/bin/env php
+
+<?php
+
+$argv = $_SERVER['argv'] ?? [];
+array_shift($argv);
+
+$input = array_shift($argv);
+
+if (is_null($input)) {
+    // echo '';
+    exit(1);
+}
+
+$collection = [
+    'code' => sprintf('code --list-extensions > %s', __DIR__.'/code.txt'),
+    'flatpak' => sprintf('flatpak list --columns=application > %s', __DIR__.'/flatpak.txt'),
+    'gnome-extensions' => sprintf('gnome-extensions list > %s', __DIR__.'/gnome-extensions.txt'),
+];
+
+if (! array_key_exists($input, $collection)) {
+    // echo '';
+    exit(1);
+}
+
+$command = $collection[$input];
+
+printf("%s\n", $command);
+
+echo shell_exec($command);

@@ -1,10 +1,35 @@
-```sh
-code --list-extensions > code.txt
-```
+## code
+
+### export
 
 ```sh
-flatpak list --columns=application > flatpak.txt
+./export code
 ```
+
+### import
+
+```sh
+./import code
+
+```
+
+## flatpak
+
+### export
+
+```sh
+./export flatpak
+```
+
+### import
+
+```sh
+./import flatpak
+```
+
+## gnome-extensions
+
+### export
 
 ```sh
 gnome-extensions list > gnome-extensions.txt

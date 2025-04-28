@@ -1,0 +1,50 @@
+#!/usr/bin/env php
+
+<?php
+
+$argv = $_SERVER['argv'] ?? [];
+array_shift($argv);
+
+$input = array_shift($argv);
+
+if (is_null($input)) {
+    // echo '';
+    exit(1);
+}
+
+$collection = [
+    'code' => [
+        'path' => __DIR__.'/code.txt',
+        'command' => 'code --install-extension %s',
+    ],
+    'flatpak' => [
+        'path' => __DIR__.'/flatpak.txt',
+        'command' => 'flatpak install -y %s',
+    ],
+];
+
+if (! array_key_exists($input, $collection)) {
+    // echo '';
+    exit(1);
+}
+
+$element = $collection[$input];
+
+$content = file($element['path'], FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+if ($content === false) {
+    // echo '';
+    exit(1);
+}
+
+$count = count($content);
+
+foreach ($content as $index => $value) {
+    printf("%s-%s\n", $index + 1, $count);
+
+    $command = sprintf($element['command'], $value);
+
+    printf("%s\n", $command);
+
+    echo shell_exec($command);
+}
