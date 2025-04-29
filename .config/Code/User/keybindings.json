@@ -7,6 +7,6 @@
     {
         "key": "space space",
         "command": "workbench.action.quickOpen",
-        "when": "vim.mode == 'Normal' || vim.mode == 'Visual'",
+        "when": "!inputBoxFocus && !terminalFocus && (vim.mode == 'Normal' || vim.mode == 'Visual')",
     }
 ]
