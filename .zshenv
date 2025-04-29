@@ -4,10 +4,6 @@ if [ -s "$HOME/private.sh" ]; then
 fi
 
 ### EXPORT
-# if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
-#     export QT_QPA_PLATFORM="xcb"
-# fi
-
 export TERM="xterm-256color"
 
 if [ -n "$(command -v nvim)" ]; then
