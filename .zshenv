@@ -75,3 +75,9 @@ fi
 if [ -n "$(command -v direnv)" ]; then
   eval "$(direnv hook zsh)"
 fi
+
+# ---
+if [ -d "$HOME/.local/share/pnpm" ]; then
+  export PNPM_HOME="$HOME/.local/share/pnpm"
+  export PATH="$PATH:$PNPM_HOME"
+fi
