@@ -2,11 +2,6 @@
 [
     {
         "key": "ctrl+k",
-        "command": "workbench.action.openView"
-    },
-    {
-        "key": "space space",
-        "command": "workbench.action.quickOpen",
-        "when": "!inputBoxFocus && !terminalFocus && (vim.mode == 'Normal' || vim.mode == 'Visual')",
+        "command": "workbench.action.openView",
     }
 ]
