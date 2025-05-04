@@ -1,4 +1,6 @@
+generator-code@latest
+http-server@latest
 npm@latest
 pnpm@latest
-http-server@latest
+yo@latest 
 
