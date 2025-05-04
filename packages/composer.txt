@@ -1,0 +1,2 @@
+cpriego/valet-linux
+laravel/installer

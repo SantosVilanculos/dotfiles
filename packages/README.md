@@ -12,6 +12,20 @@ code --list-extensions > ./code.txt
 ./install  code
 ```
 
+## composer
+
+### export
+
+```sh
+composer global show --name-only > composer.txt
+```
+
+### import
+
+```sh
+./install composer
+```
+
 ## flatpak
 
 ### export

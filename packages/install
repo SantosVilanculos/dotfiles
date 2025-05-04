@@ -17,6 +17,10 @@ $collection = [
         'path' => __DIR__.'/code.txt',
         'command' => 'code --install-extension %s',
     ],
+    'composer' => [
+        'path' => __DIR__.'/composer.txt',
+        'command' => 'composer global require --no-interaction  %s',
+    ],
     'flatpak' => [
         'path' => __DIR__.'/flatpak.txt',
         'command' => 'flatpak install -y %s',
