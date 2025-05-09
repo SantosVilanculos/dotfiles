@@ -19,5 +19,6 @@ elif [[ "$OSTYPE" == linux-gnu* ]]; then
   stow -d "$WORKDIR" -t "$HOME" -D -v "./"
 
 elif [[ "$OSTYPE" == cygwin* || "$OSTYPE" == msys* ]]; then
+  rm -fv "$HOME/AppData/Roaming/Code/User/keybindings.json"
   rm -fv "$HOME/AppData/Roaming/Code/User/settings.json"
 fi
