@@ -34,6 +34,13 @@ return {
         "vue",
         "yaml",
       })
+
+      opts.autotag = {
+        enable = true,
+        enable_close = true,
+        enable_rename = true,
+        enable_close_on_slash = false,
+      }
     end,
     config = function(_, opts)
       local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
