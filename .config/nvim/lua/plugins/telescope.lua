@@ -9,13 +9,6 @@ return {
         end,
         desc = "Find Plugin File",
       },
-      {
-        "<leader>fw",
-        function()
-          require("telescope.builtin").live_grep()
-        end,
-        desc = "Find a Word in a File",
-      },
     },
     opts = {
       defaults = {
