@@ -19,7 +19,7 @@
     "editor.codeActionsOnSave": {
         "source.fixAll": "always",
         "source.sortImports": "always",
-        "source.organizeImports": "always",
+        "source.organizeImports": "always"
     },
     "editor.codeLens": false,
     "editor.fontFamily": "'JetBrains Mono'",
@@ -99,10 +99,10 @@
     //
     "emmet.triggerExpansionOnTab": true,
     "emmet.syntaxProfiles": {
-        "blade": "html",
+        "blade": "html"
     },
     "emmet.includeLanguages": {
-        "blade": "html",
+        "blade": "html"
     },
     //
     "blade.format.enable": true,
@@ -126,7 +126,7 @@
         "editor.defaultFormatter": "open-southeners.laravel-pint"
     },
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.defaultFormatter": "ms-python.black-formatter"
     },
     // bmewburn.vscode-intelephense-client
     // devsense.phptools-vscode
@@ -187,7 +187,7 @@
     "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "<Tab>",
+                "<Tab>"
             ],
             "after": [
                 ">",
@@ -198,7 +198,7 @@
         },
         {
             "before": [
-                "<S-Tab>",
+                "<S-Tab>"
             ],
             "after": [
                 "<",
@@ -206,30 +206,30 @@
                 "v"
             ],
             "silent": true
-        },
+        }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
-                "u",
+                "u"
             ],
             "commands": [
-                "undo",
+                "undo"
             ],
             "silent": true
         },
         {
             "before": [
-                "<C-r>",
+                "<C-r>"
             ],
             "commands": [
-                "redo",
+                "redo"
             ],
             "silent": true
         },
         {
             "before": [
-                "<S-k>",
+                "<S-k>"
             ],
             "commands": [
                 "editor.action.showDefinitionPreviewHover"
@@ -238,7 +238,7 @@
         },
         {
             "before": [
-                "<C-a>",
+                "<C-a>"
             ],
             "after": [
                 "g",
@@ -251,7 +251,7 @@
         {
             "before": [
                 "[",
-                "d",
+                "d"
             ],
             "commands": [
                 "editor.action.marker.prev"
@@ -261,13 +261,13 @@
         {
             "before": [
                 "]",
-                "d",
+                "d"
             ],
             "commands": [
                 "editor.action.marker.next"
             ],
             "silent": true
-        },
+        }
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
@@ -279,7 +279,7 @@
         "<C-space>": false,
         "<C-w>": false,
         "<C-y>": false,
-        "<C-j>": false,
+        "<C-j>": false
     },
     "extensions.experimental.affinity": {
         "vscodevim.vim": 2
@@ -295,12 +295,12 @@
         "php",
         "typescript",
         "typescriptreact",
-        "vue",
+        "vue"
     ],
     "css.styleSheets": [
         "node_modules/@tabler/core/dist/css/*.css",
         "resources/**/*.{css,scss}",
-        "src/**/*.{css,scss}",
+        "src/**/*.{css,scss}"
     ]
     // ...
 }
