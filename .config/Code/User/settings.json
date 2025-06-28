@@ -304,5 +304,7 @@
     ],
     // formulahendry.code-runner
     "code-runner.runInTerminal": true,
+    // yoshinorin.current-file-path
+    "currentFilePath.defaultPathStartsFrom": "workSpace",
     //...
 }
