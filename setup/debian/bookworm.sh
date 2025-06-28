@@ -60,7 +60,6 @@ sudo apt-get install -y zsh
 sudo chsh -s "/usr/bin/zsh"
 
 # ---
-
 sudo apt-get install -y apt-transport-https
 sudo apt-get install -y build-essential
 sudo apt-get install -y ca-certificates
@@ -124,23 +123,19 @@ sudo apt-get update
 sudo apt-get install -y eza
 
 # ---
-cd "/tmp"
-wget "https://github.com/fastfetch-cli/fastfetch/releases/download/2.20.1/fastfetch-linux-amd64.deb" -O ./fastfetch-linux-amd64.deb
-sudo dpkg -i ./fastfetch-linux-amd64.deb
-cd -
+wget "https://github.com/fastfetch-cli/fastfetch/releases/download/2.20.1/fastfetch-linux-amd64.deb" -O "/tmp/fastfetch-linux-amd64.deb"
+sudo dpkg -i "/tmp/fastfetch-linux-amd64.deb"
 
 # ---
-cd "/tmp"
-wget "https://github.com/git-ecosystem/git-credential-manager/releases/download/v2.6.0/gcm-linux_amd64.2.6.0.deb" -O ./gcm-linux_amd64.2.6.0.deb
-sudo dpkg -i ./gcm-linux_amd64.2.6.0.deb
-cd -
+wget "https://github.com/git-ecosystem/git-credential-manager/releases/download/v2.6.0/gcm-linux_amd64.2.6.0.deb" -O "/tmp/gcm-linux_amd64.2.6.0.deb"
+sudo dpkg -i "/tmp/gcm-linux_amd64.2.6.0.deb"
 
 # ---
 sudo wget "https://packages.sury.org/php/apt.gpg" -O "/etc/apt/trusted.gpg.d/php.gpg"
 
 echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee "/etc/apt/sources.list.d/php.list"
 
-sudo apt update
+sudo apt-get update
 
 sudo apt-get install -y --ignore-missing \
   php8.3 php8.3-{cli,common,fpm,mysql,sqlite3,pgsql,zip,gd,mbstring,curl,xml,bcmath,tokenizer,intl,tidy,imagick,mcrypt}
@@ -179,18 +174,16 @@ sudo systemctl enable redis-server
 sudo systemctl start redis-server
 
 # ---
-cd "/tmp"
-wget https://github.com/axllent/mailpit/releases/download/v1.21.1/mailpit-linux-amd64.tar.gz -O "./mailpit-linux-amd64.tar.gz"
+wget "https://github.com/axllent/mailpit/releases/download/v1.21.1/mailpit-linux-amd64.tar.gz" -O "/tmp/mailpit-linux-amd64.tar.gz"
 mkdir -p ./mailpit-linux-amd64
-tar -xf ./mailpit-linux-amd64.tar.gz -C ./mailpit-linux-amd64
+tar -xf /tmp/mailpit-linux-amd64.tar.gz -C ./mailpit-linux-amd64
 sudo mv ./mailpit-linux-amd64/mailpit /usr/local/bin/mailpit
 rm -rf ./mailpit-linux-amd64
 sudo chmod +x /usr/local/bin/mailpit
-cd -
 
 cat <<'EOF' | sudo tee /etc/systemd/system/mailpit.service
 [Unit]
-Description=An email testing tool capturing emails from your application during development.
+Description=An email testing tool capturing emails from your application during development
 
 [Service]
 ExecStart=/usr/local/bin/mailpit
