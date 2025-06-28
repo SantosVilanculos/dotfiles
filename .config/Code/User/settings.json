@@ -301,6 +301,8 @@
         "node_modules/@tabler/core/dist/css/*.css",
         "resources/**/*.{css,scss}",
         "src/**/*.{css,scss}"
-    ]
-    // ...
+    ],
+    // formulahendry.code-runner
+    "code-runner.runInTerminal": true,
+    //...
 }
