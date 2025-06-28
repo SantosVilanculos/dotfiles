@@ -19,7 +19,7 @@ chmod +x ./install.sh
 ```
 
 ```sh
-./install.sh
+./install.sh configuration
 ```
 
 ### uninstall
@@ -29,7 +29,7 @@ chmod +x ./uninstall.sh
 ```
 
 ```sh
-./uninstall.sh
+./uninstall.sh configuration
 ```
 
 ## os setup
