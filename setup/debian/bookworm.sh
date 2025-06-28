@@ -81,6 +81,8 @@ sudo apt-get install -y net-tools
 sudo apt-get install -y ntfs-3g
 sudo apt-get install -y openssh-client
 sudo apt-get install -y openssl
+sudo apt-get install -y pulseaudio
+sudo apt-get install -y "pulseaudio-*"
 sudo apt-get install -y ripgrep
 sudo apt-get install -y software-properties-common
 sudo apt-get install -y stow
