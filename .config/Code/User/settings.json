@@ -116,7 +116,7 @@
         "editor.defaultFormatter": "shufo.vscode-blade-formatter",
         "editor.autoClosingBrackets": "always"
     },
-    "[css][html][javascript][markdown][scss][typescript][vue]": {
+    "[css][html][javascript][markdown][scss][typescript][typescriptreact][vue]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[json][jsonc]": {
@@ -267,7 +267,7 @@
                 "editor.action.marker.next"
             ],
             "silent": true
-        }
+        },
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
