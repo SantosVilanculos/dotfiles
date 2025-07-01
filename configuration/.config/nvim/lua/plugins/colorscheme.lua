@@ -12,8 +12,6 @@ return {
     "projekt0n/github-nvim-theme",
     priority = 1000,
     lazy = false,
-    -- github_dark
-    -- github_light
     -- github_dark_dimmed
     -- github_dark_default
     -- github_light_default
@@ -41,9 +39,23 @@ return {
     overrides = {},
   },
   {
+    "rose-pine/neovim",
+    name = "rose-pine",
+    priority = 1000,
+    lazy = false,
+    opts = {
+      variant = "auto", -- auto, main, moon, or dawn
+      dark_variant = "main", -- main, moon, or dawn
+    },
+    -- rose-pine
+    -- rose-pine-main
+    -- rose-pine-moon
+    -- rose-pine-dawn
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "min-theme",
+      colorscheme = "rose-pine",
     },
   },
 }
