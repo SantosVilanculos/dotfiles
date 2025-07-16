@@ -111,6 +111,8 @@
         "source.unusedImports"
     ],
     "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.tsserver.maxTsServerMemory": 4096,
     //
     "[blade]": {
         "editor.defaultFormatter": "shufo.vscode-blade-formatter",
@@ -307,4 +309,5 @@
     // yoshinorin.current-file-path
     "currentFilePath.defaultPathStartsFrom": "workSpace",
     //...
+    "Laravel.phpEnvironment": "valet",
 }
