@@ -132,7 +132,8 @@ fi
 # ---
 if [ -n "$(command -v yt-dlp)" ]; then
   alias audio="yt-dlp -f bestaudio --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s'"
-  alias video="yt-dlp -S 'vcodec:h264,fps,res:720,acodec:m4a' -o '%(title)s.%(ext)s'"
+  alias video_720p="yt-dlp -S 'vcodec:h264,fps,res:720,acodec:m4a' -o '%(title)s.%(ext)s'"
+  alias video_1080p="yt-dlp -S 'vcodec:h264,fps,res:1080,acodec:m4a' -o '%(title)s.%(ext)s'"
 fi
 
 # ---
