@@ -5,6 +5,7 @@ return {
       ensure_installed = {
         -- *
         "cspell",
+        "emmet-language-server",
         -- bash
         "bash-language-server",
         "shfmt",
