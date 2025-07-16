@@ -60,6 +60,7 @@ sudo apt-get install -y zsh
 sudo chsh -s "/usr/bin/zsh"
 
 # ---
+sudo apt-get install -y git-extras
 sudo apt-get install -y apt-transport-https
 sudo apt-get install -y build-essential
 sudo apt-get install -y ca-certificates
@@ -100,6 +101,7 @@ sudo apt-get install -y chrome-gnome-shell
 sudo apt-get install -y gnome-shell-extensions
 sudo apt-get install -y gnome-tweaks
 sudo flatpak install -y flathub com.mattjakeman.ExtensionManager
+sudo flatpak install -y flathub org.pulseaudio.pavucontrol
 
 # ---
 sudo flatpak install -y flathub it.mijorus.gearlever
