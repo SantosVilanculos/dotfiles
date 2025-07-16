@@ -137,12 +137,10 @@ if [ -n "$(command -v yt-dlp)" ]; then
 fi
 
 # ---
-alias artisan="php ./artisan"
 alias pest="./vendor/bin/pest"
 alias pint="./vendor/bin/pint"
 alias phpstan="./vendor/bin/phpstan"
 alias rector="./vendor/bin/rector"
-alias sail="./vendor/bin/sail"
 alias tinker="php artisan tinker"
 
 # ---
