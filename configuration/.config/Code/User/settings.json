@@ -8,7 +8,7 @@
     "window.title": "${activeEditorShort}",
     //
     "workbench.activityBar.location": "hidden",
-    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.colorTheme": "Rosé Pine",
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.settings.editor": "json",
