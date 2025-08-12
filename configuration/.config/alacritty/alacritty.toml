@@ -21,3 +21,6 @@ save_to_clipboard = true
 
 [terminal.shell]
 program = "/usr/bin/zsh"
+
+[keyboard]
+bindings = [{ key = "F11", action = "ToggleFullscreen" }]
