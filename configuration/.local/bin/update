@@ -13,15 +13,15 @@ elif [[ "$OSTYPE" == linux-gnu* ]]; then
 
   flatpak upgrade -y
 
-  composer global require --no-interaction laravel/installer cpriego/valet-linux
+  composer global upgrade --no-interaction
 elif [[ "$OSTYPE" == cygwin* || "$OSTYPE" == msys* ]]; then
   choco upgrade all -y
 
-  composer global require --no-interaction laravel/installer
+  composer global upgrade --no-interaction
 fi
 
 if [[ "$OSTYPE" == linux-gnu* || "$OSTYPE" == cygwin* || "$OSTYPE" == msys* ]]; then
-  npm install -g -y generator-code@latest npm@latest pnpm@latest http-server@latest yo@latest
+  npm install -g -y upgrade
 
   code --update-extensions
 fi

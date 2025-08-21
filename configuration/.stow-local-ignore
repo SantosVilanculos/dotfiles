@@ -1,15 +1,4 @@
 \.git
-packages
-setup
 
 ^/.*\.swp
-\.gitattributes
-\.gitignore
 \.stow-local-ignore
-\.stowrc
-LICENSE
-README.md
-install.sh
-screenshot.png
-TODO.md
-uninstall.sh

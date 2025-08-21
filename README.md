@@ -1,47 +1,42 @@
-[![GitHub License](https://img.shields.io/github/license/santosvilanculos/dotfiles)](https://github.com/SantosVilanculos/dotfiles/blob/main/LICENSE)
+[![license](https://img.shields.io/github/license/santosvilanculos/dotfiles)](https://github.com/SantosVilanculos/dotfiles/blob/main/LICENSE)
 
 ![](./screenshot.png)
 
-## configuration
-
-### required
-
-#### linux
+---
 
 ```sh
 sudo apt-get install -y stow
-```
-
-### install
-
-```sh
-chmod +x ./install.sh
+chmod +x ./install.sh && ./install.sh
 ```
 
 ```sh
-./install.sh configuration
+chmod +x ./uninstall.sh && ./uninstall.sh
 ```
 
-### uninstall
+---
 
 ```sh
-chmod +x ./uninstall.sh
+curl -sSfL https://raw.githubusercontent.com/SantosVilanculos/dotfiles/main/debian.bookworm.sh | sudo sh
 ```
 
 ```sh
-./uninstall.sh configuration
+curl -sSfL https://raw.githubusercontent.com/SantosVilanculos/dotfiles/main/ubuntu.noble.sh | sudo sh
 ```
 
-## os setup
-
-### debian bookworm
+---
 
 ```sh
-curl -sSfL https://raw.githubusercontent.com/SantosVilanculos/dotfiles/main/setup/debian/bookworm.sh | sudo sh
+code --list-extensions > ./code.txt
 ```
 
-### ubuntu noble/24.04
+```sh
+composer global show --name-only > composer.txt
+```
 
 ```sh
-curl -sSfL https://raw.githubusercontent.com/SantosVilanculos/dotfiles/main/setup/ubuntu/noble.sh | sudo sh
+flatpak list --columns=application > ./flatpak.txt
+```
+
+```sh
+gnome-extensions list > ./gnome-extensions.txt
 ```
