@@ -150,3 +150,6 @@ alias tinker="php artisan tinker"
 
 # ---
 alias wip="git commit -m 'wip'"
+
+# ---
+alias shadcn="pnpm dlx shadcn@latest"
