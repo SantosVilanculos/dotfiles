@@ -60,6 +60,7 @@ onecentlin.laravel-blade
 open-southeners.laravel-pint
 pkief.material-icon-theme
 pucelle.run-on-save
+raunofreiberg.vesper
 redhat.vscode-xml
 rioj7.vscode-remove-comments
 shufo.vscode-blade-formatter
