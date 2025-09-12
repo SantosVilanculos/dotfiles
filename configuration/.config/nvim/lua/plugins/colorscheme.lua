@@ -32,20 +32,22 @@ return {
       transparent = false, -- Boolean: Sets the background to transparent
       italics = {
         comments = true, -- Boolean: Italicizes comments
-        keywords = true, -- Boolean: Italicizes keywords
-        functions = true, -- Boolean: Italicizes functions
-        strings = true, -- Boolean: Italicizes strings
-        variables = true, -- Boolean: Italicizes variables
+        -- keywords = true, -- Boolean: Italicizes keywords
+        -- functions = true, -- Boolean: Italicizes functions
+        -- strings = true, -- Boolean: Italicizes strings
+        -- variables = true, -- Boolean: Italicizes variables
       },
       overrides = {},
     },
+    -- min-theme
   },
   {
     "rose-pine/neovim",
     name = "rose-pine",
-    -- priority = 1000,
-    -- lazy = false,
+    priority = 1000,
+    lazy = false,
     opts = {
+      transparent = false, -- Boolean: Sets the background to transparent
       variant = "auto", -- auto, main, moon, or dawn
       dark_variant = "main", -- main, moon, or dawn
     },
@@ -56,16 +58,16 @@ return {
   },
   {
     "datsfilipe/vesper.nvim",
-    priority = 1000,
-    lazy = false,
+    -- priority = 1000,
+    -- lazy = false,
     opts = {
       transparent = false, -- Boolean: Sets the background to transparent
       italics = {
         comments = true, -- Boolean: Italicizes comments
-        keywords = true, -- Boolean: Italicizes keywords
-        functions = true, -- Boolean: Italicizes functions
-        strings = true, -- Boolean: Italicizes strings
-        variables = true, -- Boolean: Italicizes variables
+        -- keywords = true, -- Boolean: Italicizes keywords
+        -- functions = true, -- Boolean: Italicizes functions
+        -- strings = true, -- Boolean: Italicizes strings
+        -- variables = true, -- Boolean: Italicizes variables
       },
       overrides = {}, -- A dictionary of group names, can be a function returning a dictionary or a table.
       palette_overrides = {},
@@ -75,7 +77,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "vesper",
+      colorscheme = "rose-pine",
     },
   },
 }
