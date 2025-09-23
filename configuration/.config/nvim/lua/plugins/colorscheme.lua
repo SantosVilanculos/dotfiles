@@ -44,8 +44,8 @@ return {
   {
     "rose-pine/neovim",
     name = "rose-pine",
-    priority = 1000,
-    lazy = false,
+    -- priority = 1000,
+    -- lazy = false,
     opts = {
       transparent = false, -- Boolean: Sets the background to transparent
       variant = "auto", -- auto, main, moon, or dawn
@@ -74,10 +74,10 @@ return {
     },
     -- vesper
   },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "rose-pine",
-    },
-  },
+  -- {
+  --   "LazyVim/LazyVim",
+  --   opts = {
+  --     colorscheme = "rose-pine",
+  --   },
+  -- },
 }
