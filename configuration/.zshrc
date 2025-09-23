@@ -70,7 +70,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(sudo git zsh-autosuggestions zsh-syntax-highlighting tmux)
+plugins=(zsh-autosuggestions zsh-syntax-highlighting sudo git)
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-$HOME/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 
@@ -111,11 +111,6 @@ alias free='free -m'
 alias grep='grep --color=auto'
 
 # ---
-if [ -n "$(command -v nvim)" ]; then
-  alias vim="nvim"
-fi
-
-# ---
 if [ -n "$(command -v z)" ]; then
   alias cd="z"
 fi
@@ -149,7 +144,7 @@ alias rector="./vendor/bin/rector"
 alias tinker="php artisan tinker"
 
 # ---
-alias wip="git commit -m 'wip'"
+alias shadcn="pnpm dlx shadcn@latest"
 
 # ---
-alias shadcn="pnpm dlx shadcn@latest"
+alias wip="git add --all && git commit -m 'wip'"
