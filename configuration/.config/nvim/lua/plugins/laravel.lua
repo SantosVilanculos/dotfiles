@@ -10,13 +10,13 @@ return {
     },
     cmd = { "Laravel" },
     keys = {
-      {
-        "<leader>ll",
-        function()
-          Laravel.pickers.laravel()
-        end,
-        desc = "Laravel: Open Laravel Picker",
-      },
+      -- {
+      --   "<leader>ll",
+      --   function()
+      --     Laravel.pickers.laravel()
+      --   end,
+      --   desc = "Laravel: Open Laravel Picker",
+      -- },
       {
         "<c-g>",
         function()
@@ -102,7 +102,7 @@ return {
       lsp_server = "intelephense", -- "phpactor | intelephense"
       features = {
         pickers = {
-          provider = "snacks", -- "snacks | telescope | fzf-lua | ui-select"
+          provider = "telescope", -- "snacks | telescope | fzf-lua | ui-select"
         },
       },
     },
