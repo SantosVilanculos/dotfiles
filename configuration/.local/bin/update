@@ -21,7 +21,7 @@ elif [[ "$OSTYPE" == cygwin* || "$OSTYPE" == msys* ]]; then
 fi
 
 if [[ "$OSTYPE" == linux-gnu* || "$OSTYPE" == cygwin* || "$OSTYPE" == msys* ]]; then
-  npm install -g -y upgrade
+  npm upgrade -g -y
 
   code --update-extensions
 fi
