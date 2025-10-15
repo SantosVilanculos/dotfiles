@@ -197,8 +197,8 @@ bar {
 
 # Start polkit authentication agent for handling system-wide privilege escalation
 # This allows GUI authentication prompts for disk mounting, system settings, etc.
-# Install: sudo apt install policykit-1-gnome
-exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+# Install: sudo apt install lxpolkit
+exec --no-startup-id lxpolkit
 
 # Restore the last saved wallpaper configuration using nitrogen
 # Install: sudo apt install nitrogen
