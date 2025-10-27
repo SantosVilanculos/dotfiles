@@ -30,17 +30,17 @@ curl -sSfL https://raw.githubusercontent.com/SantosVilanculos/dotfiles/main/setu
 ---
 
 ```sh
-code --list-extensions > ./code.txt
+code --list-extensions > ./packages/code.txt
 ```
 
 ```sh
-composer global show --name-only > composer.txt
+composer global show --name-only > ./packages/composer.txt
 ```
 
 ```sh
-flatpak list --columns=application > ./flatpak.txt
+flatpak list --columns=application > ./packages/flatpak.txt
 ```
 
 ```sh
-gnome-extensions list > ./gnome-extensions.txt
+gnome-extensions list > ./packages/gnome-extensions.txt
 ```
