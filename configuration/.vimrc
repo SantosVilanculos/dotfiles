@@ -13,6 +13,5 @@ set tabstop=4
 filetype plugin indent on
 
 set clipboard=unnamedplus
-set paste
 
 set incsearch
