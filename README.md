@@ -16,11 +16,15 @@ chmod +x ./uninstall.sh && ./uninstall.sh
 ---
 
 ```sh
-curl -sSfL https://raw.githubusercontent.com/SantosVilanculos/dotfiles/main/debian.bookworm.sh | sudo sh
+curl -sSfL https://raw.githubusercontent.com/SantosVilanculos/dotfiles/main/setup/debian/bookworm.sh | sudo sh
 ```
 
 ```sh
-curl -sSfL https://raw.githubusercontent.com/SantosVilanculos/dotfiles/main/ubuntu.noble.sh | sudo sh
+curl -sSfL https://raw.githubusercontent.com/SantosVilanculos/dotfiles/main/setup/debian/trixie.sh | sudo sh
+```
+
+```sh
+curl -sSfL https://raw.githubusercontent.com/SantosVilanculos/dotfiles/main/setup/ubuntu/noble.sh | sudo sh
 ```
 
 ---
