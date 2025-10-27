@@ -16,7 +16,7 @@ if [[ "$OSTYPE" == linux-android* ]]; then
   fi
 
 elif [[ "$OSTYPE" == linux-gnu* ]]; then
-  stow -d "$WORKDIR" -t "$HOME" -D -v "configuration"
+  stow -d "$WORKDIR" -t "$HOME" -D -v "./"
 
 elif [[ "$OSTYPE" == cygwin* || "$OSTYPE" == msys* ]]; then
   rm -fv "$HOME/AppData/Roaming/Code/User/keybindings.json"

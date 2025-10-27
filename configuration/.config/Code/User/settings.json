@@ -3,28 +3,53 @@
     "update.mode": "none",
     "extensions.autoUpdate": false,
     //
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        ".env": false
+    },
+    //
     "window.commandCenter": false,
     "window.menuBarVisibility": "toggle",
     "window.title": "${activeEditorShort}",
     //
+    "workbench.tree.indent": 14,
     "workbench.activityBar.location": "hidden",
-    "workbench.colorTheme": "Vesper",
+    "workbench.colorTheme": "Tokyo Night",
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.settings.editor": "json",
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
     "workbench.tree.enableStickyScroll": false,
+    "workbench.colorCustomizations": {
+        "[GitHub Light]": {
+            "editor.background": "#f6f8fa",
+            "editor.lineHighlightBackground": "#818b981f"
+        }
+    },
     //
     "editor.codeActionsOnSave": {
         "source.fixAll": "always",
         "source.sortImports": "always",
         "source.organizeImports": "always"
     },
+    "editor.occurrencesHighlight": "off",
+    "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "none",
+    "editor.roundedSelection": false,
+    "editor.scrollbar.horizontal": "visible",
+    "editor.scrollbar.vertical": "visible",
+    "editor.selectionHighlight": false,
+    "editor.showFoldingControls": "always",
+    "editor.colorDecorators": false,
+    "editor.cursorBlinking": "solid",
     "editor.codeLens": false,
     "editor.fontFamily": "'JetBrains Mono'",
     "editor.fontLigatures": true,
     "editor.fontSize": 17.33,
+    "editor.lineNumbers": "relative",
     "editor.formatOnSave": true,
     "editor.gotoLocation.multipleDeclarations": "goto",
     "editor.gotoLocation.multipleDefinitions": "goto",
@@ -43,14 +68,15 @@
         80,
         120
     ],
-//   "editor.semanticTokenColorCustomizations": {
-//     "enabled": true
-//   },
-  "editor.semanticHighlighting.enabled": false,
+    //   "editor.semanticTokenColorCustomizations": {
+    //     "enabled": true
+    //   },
+    "editor.semanticHighlighting.enabled": false,
     "editor.scrollBeyondLastLine": false,
     "editor.snippetSuggestions": "bottom",
     "editor.stickyScroll.enabled": false,
     "editor.suggestOnTriggerCharacters": false,
+    "editor.find.addExtraSpaceOnTop": false,
     "editor.tabCompletion": "on",
     "editor.tokenColorCustomizations": {
         "[*Light*]": {
@@ -122,11 +148,11 @@
         "editor.defaultFormatter": "shufo.vscode-blade-formatter",
         "editor.autoClosingBrackets": "always"
     },
-    "[css][html][javascript][markdown][scss][typescript][typescriptreact][vue]": {
+    "[css][html][javascript][markdown][json][jsonc][scss][typescript][typescriptreact][vue]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[php]": {
-        "editor.defaultFormatter": "open-southeners.laravel-pint"
+        "editor.defaultFormatter": "laravel.vscode-laravel"
     },
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
@@ -158,15 +184,6 @@
     "laravel-pint.fallbackToGlobalBin": false,
     // ms-python.black-formatter
     "black-formatter.importStrategy": "fromEnvironment",
-    // adpyke.codesnap
-    "codesnap.containerPadding": "0",
-    "codesnap.transparentBackground": true,
-    "codesnap.roundedCorners": false,
-    "codesnap.showWindowControls": false,
-    "codesnap.showLineNumbers": false,
-    "codesnap.realLineNumbers": false,
-    // ritwickdey.liveserver
-    "liveServer.settings.NoBrowser": true,
     // ziglang.vscode-zig
     "zig.zls.enabled": "on",
     // vscodevim.vim
@@ -309,9 +326,11 @@
     "code-runner.runInTerminal": true,
     // yoshinorin.current-file-path
     "currentFilePath.defaultPathStartsFrom": "workSpace",
-    //...
-    "Laravel.phpEnvironment": "valet",
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
     },
+    //...
 }

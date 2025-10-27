@@ -6,11 +6,11 @@
 
 ```sh
 sudo apt-get install -y stow
-chmod +x ./install.sh && ./install.sh
+chmod +x ./configuration/install.sh && ./configuration/install.sh
 ```
 
 ```sh
-chmod +x ./uninstall.sh && ./uninstall.sh
+chmod +x ./configuration/uninstall.sh && ./configuration/uninstall.sh
 ```
 
 ---
