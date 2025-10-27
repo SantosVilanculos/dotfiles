@@ -132,6 +132,7 @@ fi
 # ---
 if [ -n "$(command -v yt-dlp)" ]; then
   alias audio="yt-dlp -f bestaudio --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s'"
+  alias audio_playlists="yt-dlp -f bestaudio --extract-audio --audio-format mp3 -o '%(playlist_title)s/%(title)s.%(ext)s'"
   alias video_720p="yt-dlp -S 'vcodec:h264,fps,res:720,acodec:m4a' -o '%(title)s.%(ext)s'"
   alias video_1080p="yt-dlp -S 'vcodec:h264,fps,res:1080,acodec:m4a' -o '%(title)s.%(ext)s'"
 fi
@@ -142,9 +143,12 @@ alias pint="./vendor/bin/pint"
 alias phpstan="./vendor/bin/phpstan"
 alias rector="./vendor/bin/rector"
 alias tinker="php artisan tinker"
+alias serve="composer run dev"
+alias artisan="php artisan"
 
 # ---
 alias shadcn="pnpm dlx shadcn@latest"
 
 # ---
 alias wip="git add --all && git commit -m 'wip'"
+alias nah='git reset --hard;git clean -df'
