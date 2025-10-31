@@ -176,9 +176,6 @@
     "cSpell.useGitignore": false,
     // dotenv.dotenv-vscode
     "dotenv.enableAutocloaking": false,
-    // open-southeners.laravel-pint
-    "laravel-pint.enable": true,
-    "laravel-pint.fallbackToGlobalBin": false,
     // ms-python.black-formatter
     "black-formatter.importStrategy": "fromEnvironment",
     // ziglang.vscode-zig
