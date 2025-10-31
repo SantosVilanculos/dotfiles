@@ -15,8 +15,8 @@
     "window.title": "${activeEditorShort}",
     //
     "workbench.tree.indent": 14,
-    "workbench.activityBar.location": "hidden",
     "workbench.colorTheme": "Tokyo Night",
+    "workbench.activityBar.location": "top",
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.settings.editor": "json",
