@@ -165,9 +165,6 @@
     "javascript.suggest.paths": false,
     // bradlc.vscode-tailwindcss
     "tailwindCSS.emmetCompletions": true,
-    // mehedidracula.php-namespace-resolver
-    "namespaceResolver.sortOnSave": false,
-    "namespaceResolver.autoSort": false,
     // pkief.material-icon-theme
     "material-icon-theme.folders.theme": "classic",
     // streetsidesoftware.code-spell-checker
