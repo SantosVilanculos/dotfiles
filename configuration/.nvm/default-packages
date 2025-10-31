@@ -1,3 +1,4 @@
+@bpleco/clid
 @google/gemini-cli
 generator-code@latest
 http-server@latest
