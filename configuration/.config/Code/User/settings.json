@@ -25,7 +25,8 @@
     "workbench.tree.enableStickyScroll": false,
     "workbench.colorCustomizations": {
         "[GitHub Light]": {
-            "editor.background": "#f6f8fa",
+            // "editor.background": "#f6f8fa",
+            "editor.background":"#ECEEF5",
             "editor.lineHighlightBackground": "#818b981f"
         }
     },
