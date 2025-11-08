@@ -76,6 +76,8 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.o
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # ---
+sudo apt-get install -y firmware-linux-free
+sudo apt-get install -y firmware-linux-nonfree
 sudo apt-get install -y git-extras
 sudo apt-get install -y apt-transport-https
 sudo apt-get install -y build-essential
