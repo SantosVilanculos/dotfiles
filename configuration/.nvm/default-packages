@@ -1,8 +1,4 @@
 @bpleco/clid
 @google/gemini-cli
-generator-code@latest
-http-server@latest
-npm@latest
-pnpm@latest
-yo@latest 
-
+http-server
+pnpm
