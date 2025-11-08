@@ -123,7 +123,8 @@
     //
     "files.associations": {
         "*.embeddedhtml": "html",
-        ".env*": "dotenv"
+        ".env*": "dotenv",
+        "*.drawio": "xml"
     },
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
