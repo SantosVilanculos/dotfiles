@@ -15,7 +15,6 @@
     "window.title": "${activeEditorShort}",
     //
     "workbench.tree.indent": 14,
-    "workbench.colorTheme": "Tokyo Night",
     "workbench.activityBar.location": "top",
     "workbench.editor.enablePreview": false,
     "workbench.iconTheme": "material-icon-theme",
@@ -327,5 +326,6 @@
     "github.copilot.enable": {
         "*": false,
     },
+    "workbench.colorTheme": "GitHub Light",
     //...
 }
