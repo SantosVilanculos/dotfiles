@@ -328,4 +328,11 @@
     },
     "workbench.colorTheme": "GitHub Light",
     //...
+    "codesnap.showLineNumbers": false,
+    "codesnap.showWindowTitle": false,
+    // "codesnap.target": "window",
+    "codesnap.showWindowControls": false,
+    // "codesnap.containerPadding": "0"
+    "codesnap.transparentBackground": true,
+    "codesnap.roundedCorners": false
 }
