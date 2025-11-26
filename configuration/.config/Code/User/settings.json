@@ -148,6 +148,7 @@
     //
     "[blade]": {
         "editor.defaultFormatter": "shufo.vscode-blade-formatter",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.autoClosingBrackets": "always"
     },
     "[css][html][javascript][markdown][json][jsonc][scss][typescript][typescriptreact][vue]": {
