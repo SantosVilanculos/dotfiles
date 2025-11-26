@@ -1,0 +1,11 @@
+bmewburn.vscode-intelephense-client
+bradlc.vscode-tailwindcss
+ecmel.vscode-html-css
+esbenp.prettier-vscode
+github.github-vscode-theme
+laravel.vscode-laravel
+sleistner.vscode-fileutils
+streetsidesoftware.code-spell-checker
+streetsidesoftware.code-spell-checker-portuguese
+streetsidesoftware.code-spell-checker-scientific-terms
+vscodevim.vim
