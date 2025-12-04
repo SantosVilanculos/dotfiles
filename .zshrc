@@ -141,6 +141,16 @@ alias tinker="php artisan tinker"
 alias shadcn="pnpm dlx shadcn@latest"
 
 # ---
+update () {
+    sudo apt update && sudo apt upgrade -y
+    flatpak update -y
+    code --update-extensions
+    antigravity --update-extensions
+    npm update -g
+    composer global upgrade
+    omz update
+}
+
 volume () {
     if [[ $1 =~ ^[0-9]+$ ]] && [[ $1 -ge 0 ]] && [ $1 -le 100 ]; then
         amixer sset Master "$1%"
