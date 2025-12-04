@@ -40,7 +40,7 @@ if [ -d "$HOME/.pyenv/bin" ]; then
 fi
 
 if [ -n "$(command -v pyenv)" ]; then
-  eval "$(pyenv init -)"
+  eval "$(pyenv init - zsh)"
   eval "$(pyenv virtualenv-init -)"
 fi
 
