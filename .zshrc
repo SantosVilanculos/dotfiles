@@ -132,9 +132,9 @@ fi
 # ---
 alias artisan="php artisan"
 alias pest="./vendor/bin/pest"
-alias pint="./vendor/bin/pint"
+alias pint="./vendor/bin/pint --parallel"
 alias phpstan="./vendor/bin/phpstan"
-alias rector="./vendor/bin/rector"
+alias rector="./vendor/bin/rector process"
 alias tinker="php artisan tinker"
 
 # ---
