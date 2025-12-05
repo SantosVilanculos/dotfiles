@@ -6,6 +6,10 @@
 stow -t $HOME -Rv ./
 ```
 
+```sh
+stow -t $HOME -Dv ./
+```
+
 ---
 
 ```sh
