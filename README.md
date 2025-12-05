@@ -1,5 +1,7 @@
 [![license](https://img.shields.io/github/license/santosvilanculos/dotfiles)](https://github.com/SantosVilanculos/dotfiles/blob/main/LICENSE)
 
+![](./screenshot.png)
+
 ```sh
 stow -t $HOME -Rv ./
 ```
