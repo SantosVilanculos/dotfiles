@@ -1,6 +1,0 @@
-\.git
-
-^/.*\.swp
-\.stow-local-ignore
-install.sh
-uninstall.sh

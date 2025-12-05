@@ -1,0 +1,11 @@
+app.zen_browser.zen
+com.obsproject.Studio
+fr.handbrake.ghb
+it.mijorus.gearlever
+org.audacityteam.Audacity
+org.inkscape.Inkscape
+org.kde.kdenlive
+org.pulseaudio.pavucontrol
+org.qbittorrent.qBittorrent
+org.videolan.VLC
+org.zotero.Zotero

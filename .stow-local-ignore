@@ -1,0 +1,10 @@
+\.git
+^/.gitattributes
+^/antigravity.txt
+^/apt.txt
+^/code.txt
+^/composer.txt
+^/flatpak.txt
+^/LICENSE
+^/mailpit.service
+^/README.md
