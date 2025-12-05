@@ -1,4 +1,5 @@
 dmenu
+fastfetch
 ffmpeg
 gh
 git
