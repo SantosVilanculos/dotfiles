@@ -2,6 +2,7 @@ app.zen_browser.zen
 com.obsproject.Studio
 fr.handbrake.ghb
 it.mijorus.gearlever
+md.obsidian.Obsidian
 org.audacityteam.Audacity
 org.inkscape.Inkscape
 org.kde.kdenlive
