@@ -164,3 +164,9 @@ favicon () {
         convert "$1" -define icon:auto-resize="256,128,96,64,48,32,16" ./favicon.ico
     fi
 }
+
+# Disable IPv6
+alias disable_ipv6='sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1; sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1; echo "IPv6 is disabled (temporary)."'
+
+# Enable IPv6
+alias enable_ipv6='sudo sysctl -w net.ipv6.conf.all.disable_ipv6=0; sudo sysctl -w net.ipv6.conf.default.disable_ipv6=0; echo "IPv6 is enabled (temporary)."'
