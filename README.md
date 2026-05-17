@@ -3,11 +3,11 @@
 ![](./screenshot.png)
 
 ```sh
-stow -t $HOME -Rv ./
+stow -Rv <package>
 ```
 
 ```sh
-stow -t $HOME -Dv ./
+stow -Dv <package>
 ```
 
 ---
