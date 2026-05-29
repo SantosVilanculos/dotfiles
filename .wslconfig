@@ -1,0 +1,11 @@
+# https://faranheit.medium.com/making-windows-disappear-a-linux-developers-guide-to-a-production-grade-wsl2-setup-ae43473e12e8
+# https://learn.microsoft.com/en-us/windows/wsl/wsl-config
+
+[wsl2]
+memory=4GB
+processors=2
+swap=8GB
+
+[experimental]
+autoMemoryReclaim=gradual
+sparseVhd=true
