@@ -1,4 +1,9 @@
 ### CARGO
+if [ -s "$HOME/custom.sh" ]; then
+  source "$HOME/custom.sh"
+fi
+
+### CARGO
 if [ -s "$HOME/.cargo/env" ]; then
   source "$HOME/.cargo/env"
 fi
@@ -60,5 +65,6 @@ fi
 
 ### ZOXIDE
 if [ -n "$(command -v zoxide)" ]; then
-  eval "$(zoxide init zsh)"
+  eval "$(zoxide init zsh --cmd cd)"
 fi
+

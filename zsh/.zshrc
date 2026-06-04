@@ -106,11 +106,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # ---
-if [ -n "$(command -v z)" ]; then
-  alias cd="z"
-fi
-
-# ---
 if [ -n "$(command -v eza)" ]; then
   alias ls="eza --color=always --group-directories-first"
 fi
@@ -170,3 +165,11 @@ alias disable_ipv6='sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1; sudo sysctl
 
 # Enable IPv6
 alias enable_ipv6='sudo sysctl -w net.ipv6.conf.all.disable_ipv6=0; sudo sysctl -w net.ipv6.conf.default.disable_ipv6=0; echo "IPv6 is enabled (temporary)."'
+
+# ---
+if [ -n "$WSL_DISTRO_NAME" ]; then
+    alias code="/mnt/c/Users/$USER/AppData/Local/Programs/Microsoft\ VS\ Code/bin/code"
+
+    alias pbcopy='/mnt/c/Windows/System32/clip.exe'
+    alias pbpaste='/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -c "Get-Clipboard"'
+fi
