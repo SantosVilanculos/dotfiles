@@ -38,9 +38,11 @@
     autoStash = true
     updateRefs = true
 [rerere]
-   autoupdate = true
-   enabled = true
+    autoupdate = true
+    enabled = true
 [tag]
-   sort = version:refname
-
+    sort = version:refname
+[user]
+	email = santosvilanculos@yahoo.com
+    name = Santos Vilanculos
 # https://blog.gitbutler.com/how-git-core-devs-configure-git
