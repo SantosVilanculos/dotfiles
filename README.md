@@ -1,5 +1,5 @@
-![Last commit](https://www.shieldcn.dev/github/last-commit/santosvilanculos/dotfiles.svg?variant=secondary&size=sm)
-![License](https://www.shieldcn.dev/github/license/santosvilanculos/dotfiles.svg?variant=ghost&size=sm)
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/last-commit/santosvilanculos/dotfiles.svg?variant=secondary&size=sm&mode=dark&font=geist"><img alt="Last commit" src="https://www.shieldcn.dev/github/last-commit/santosvilanculos/dotfiles.svg?variant=secondary&size=sm&mode=light&font=geist"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/license/santosvilanculos/dotfiles.svg?variant=ghost&size=sm&mode=dark&font=geist"><img alt="License" src="https://www.shieldcn.dev/github/license/santosvilanculos/dotfiles.svg?variant=ghost&size=sm&mode=light&font=geist"></picture>
 
 ![](./screenshot.png)
 
