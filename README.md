@@ -1,4 +1,5 @@
-[![license](https://img.shields.io/github/license/santosvilanculos/dotfiles)](https://github.com/SantosVilanculos/dotfiles/blob/main/LICENSE)
+![Last commit](https://www.shieldcn.dev/github/last-commit/santosvilanculos/dotfiles.svg?variant=secondary&size=sm)
+![License](https://www.shieldcn.dev/github/license/santosvilanculos/dotfiles.svg?variant=ghost&size=sm)
 
 ![](./screenshot.png)
 
