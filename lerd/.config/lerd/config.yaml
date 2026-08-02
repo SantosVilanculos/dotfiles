@@ -1,0 +1,72 @@
+php:
+    default_version: "8.5"
+    xdebug_enabled: {}
+    extensions: []
+node:
+    default_version: "26"
+    managed: true
+    manager: fnm
+nginx:
+    http_port: 80
+    https_port: 443
+dns:
+    enabled: true
+    tld: test
+dumps:
+    enabled: true
+idle_suspend:
+    enabled: true
+    timeout: 30m0s
+auto_cleanup: true
+parked_directories:
+    - /home/santosvilanculos/Lerd
+services:
+    mailpit:
+        enabled: true
+        image: docker.io/axllent/mailpit:latest
+        port: 1025
+        extra_ports: []
+        last_op: update
+    meilisearch:
+        enabled: false
+        image: docker.io/getmeili/meilisearch:v1.42.1
+        port: 7700
+        extra_ports: []
+        last_op: update
+    mysql:
+        enabled: true
+        image: docker.io/library/mysql:8.4.11
+        port: 3306
+        extra_ports: []
+        published_port: 3307
+        previous_image: docker.io/library/mysql:8.4.10
+        last_op: update
+        canonical_version: "8.4"
+    mysql-9-7:
+        enabled: false
+        image: ""
+        port: 0
+        extra_ports: []
+        published_port: 3308
+    postgres:
+        enabled: false
+        image: ""
+        port: 5432
+        extra_ports: []
+    redis:
+        enabled: false
+        image: docker.io/library/redis:7.4.10-alpine
+        port: 6379
+        extra_ports: []
+        previous_image: docker.io/library/redis:7.4.9-alpine
+        last_op: update
+    rustfs:
+        enabled: false
+        image: docker.io/rustfs/rustfs:latest
+        port: 9000
+        extra_ports: []
+        last_op: update
+workspaces:
+    - name: development
+      sites:
+        - app
