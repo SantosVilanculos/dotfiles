@@ -1,12 +1,13 @@
 return {
   {
     "olimorris/onedarkpro.nvim",
-    -- priority = 1000,
-    -- lazy = false,
+    priority = 1000,
+    lazy = false,
     -- onedark
     -- onelight
     -- onedark_vivid
     -- onedark_dark
+    -- vaporwave
   },
   {
     "projekt0n/github-nvim-theme",
@@ -74,10 +75,10 @@ return {
     },
     -- vesper
   },
-  -- {
-  --   "LazyVim/LazyVim",
-  --   opts = {
-  --     colorscheme = "rose-pine",
-  --   },
-  -- },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "onedark",
+    },
+  },
 }
