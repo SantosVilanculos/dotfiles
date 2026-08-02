@@ -1,12 +1,16 @@
 app.zen_browser.zen
 com.obsproject.Studio
 fr.handbrake.ghb
+io.dbeaver.DBeaverCommunity
 it.mijorus.gearlever
 md.obsidian.Obsidian
 org.audacityteam.Audacity
+org.flameshot.Flameshot
 org.inkscape.Inkscape
 org.kde.kdenlive
+org.localsend.localsend_app
+org.onlyoffice.desktopeditors
 org.pulseaudio.pavucontrol
 org.qbittorrent.qBittorrent
+org.telegram.desktop
 org.videolan.VLC
-org.zotero.Zotero

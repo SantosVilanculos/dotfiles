@@ -96,7 +96,7 @@ xargs -a ./flatpak.txt flatpak install flathub
 ### export
 
 ```sh
-flatpak list --user --app --columns=application > ./flatpak.txt
+flatpak list --system --app --columns=application > ./flatpak.txt
 ```
 
 ### bin
@@ -107,11 +107,14 @@ sudo ln -sf /var/lib/flatpak/exports/bin/com.obsproject.Studio /usr/local/bin/ob
 sudo ln -sf /var/lib/flatpak/exports/bin/fr.handbrake.ghb /usr/local/bin/ghb
 sudo ln -sf /var/lib/flatpak/exports/bin/io.dbeaver.DBeaverCommunity /usr/local/bin/dbeaver
 sudo ln -sf /var/lib/flatpak/exports/bin/it.mijorus.gearlever /usr/local/bin/gearlever
+sudo ln -sf /var/lib/flatpak/exports/bin/org.flameshot.Flameshot /usr/local/bin/flameshot
+sudo ln -sf /var/lib/flatpak/exports/bin/org.localsend.localsend_app /usr/local/bin/localsend
 sudo ln -sf /var/lib/flatpak/exports/bin/md.obsidian.Obsidian /usr/local/bin/obsidian
 sudo ln -sf /var/lib/flatpak/exports/bin/org.audacityteam.Audacity /usr/local/bin/audacity
 sudo ln -sf /var/lib/flatpak/exports/bin/org.inkscape.Inkscape /usr/local/bin/inkscape
 sudo ln -sf /var/lib/flatpak/exports/bin/org.kde.kdenlive /usr/local/bin/kdenlive
 sudo ln -sf /var/lib/flatpak/exports/bin/org.onlyoffice.desktopeditors /usr/local/bin/onlyoffice
+sudo ln -sf /var/lib/flatpak/exports/bin/org.telegram.desktop /usr/local/bin/telegram
 sudo ln -sf /var/lib/flatpak/exports/bin/org.pulseaudio.pavucontrol /usr/local/bin/pavucontrol
 sudo ln -sf /var/lib/flatpak/exports/bin/org.qbittorrent.qBittorrent /usr/local/bin/qbittorrent
 sudo ln -sf /var/lib/flatpak/exports/bin/org.videolan.VLC /usr/local/bin/vlc
