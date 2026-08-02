@@ -13,6 +13,12 @@ return {
             },
           },
         },
+        laravel_lsp = {
+          mason = false,
+          cmd = { "laravel-lsp" },
+          filetypes = { "php", "blade" },
+          root_markers = { "artisan", "composer.json", ".git" },
+        },
       },
     },
   },
