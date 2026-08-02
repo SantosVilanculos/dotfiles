@@ -8,11 +8,14 @@ dynamic_title = true
 decorations_theme_variant = "Dark"
 
 [font]
-normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
-bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
-italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
-bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
-size = 13
+# normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+# bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+# italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+# bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
+normal = { family = "Geist Mono Nerd Font", style = "Medium" }
+bold = { family = "Geist Mono Nerd Font", style = "Bold" }
+italic = { family = "Geist Mono Nerd Font", style = "Medium Italic" }
+bold_italic = { family = "Geist Mono Nerd Font", style = "Bold Italic" }
 
 [selection]
 save_to_clipboard = true
