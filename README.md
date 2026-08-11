@@ -1,5 +1,5 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/last-commit/santosvilanculos/dotfiles.svg?variant=secondary&size=sm&mode=dark&font=geist"><img alt="Last commit" src="https://www.shieldcn.dev/github/last-commit/santosvilanculos/dotfiles.svg?variant=secondary&size=sm&mode=light&font=geist"></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/license/santosvilanculos/dotfiles.svg?variant=ghost&size=sm&mode=dark&font=geist"><img alt="License" src="https://www.shieldcn.dev/github/license/santosvilanculos/dotfiles.svg?variant=ghost&size=sm&mode=light&font=geist"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/last-commit/santosvilanculos/dotfiles.svg?variant=secondary&size=xs&mode=dark&font=geist"><img alt="Last commit" src="https://www.shieldcn.dev/github/last-commit/santosvilanculos/dotfiles.svg?variant=secondary&size=xs&mode=light&font=geist"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/license/santosvilanculos/dotfiles.svg?variant=ghost&size=xs&mode=dark&font=geist"><img alt="License" src="https://www.shieldcn.dev/github/license/santosvilanculos/dotfiles.svg?variant=ghost&size=xs&mode=light&font=geist"></picture>
 
 ![](./screenshot.png)
 
@@ -104,7 +104,7 @@ flatpak list --system --app --columns=application > ./flatpak.txt
 ```sh
 sudo ln -sf /var/lib/flatpak/exports/bin/app.zen_browser.zen /usr/local/bin/zen
 sudo ln -sf /var/lib/flatpak/exports/bin/com.obsproject.Studio /usr/local/bin/obs
-sudo ln -sf /var/lib/flatpak/exports/bin/fr.handbrake.ghb /usr/local/bin/ghb
+sudo ln -sf /var/lib/flatpak/exports/bin/fr.handbrake.ghb /usr/local/bin/handbrake
 sudo ln -sf /var/lib/flatpak/exports/bin/io.dbeaver.DBeaverCommunity /usr/local/bin/dbeaver
 sudo ln -sf /var/lib/flatpak/exports/bin/it.mijorus.gearlever /usr/local/bin/gearlever
 sudo ln -sf /var/lib/flatpak/exports/bin/org.flameshot.Flameshot /usr/local/bin/flameshot
