@@ -33,6 +33,9 @@ if [ -d "$HOME/.config/herd-lite/bin" ]; then
   export PHP_INI_SCAN_DIR="$HOME/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 fi
 
+### LERD
+export LERD_OFFLINE=1
+
 ### PNPM
 if [ -d "$HOME/.local/share/pnpm" ]; then
   export PNPM_HOME="$HOME/.local/share/pnpm"
