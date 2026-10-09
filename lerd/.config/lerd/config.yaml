@@ -17,6 +17,8 @@ dumps:
 idle_suspend:
     enabled: true
     timeout: 30m0s
+auto_snapshot:
+    enabled: true
 auto_cleanup: true
 parked_directories:
     - /home/santosvilanculos/Lerd
@@ -27,18 +29,23 @@ services:
         port: 1025
         extra_ports: []
         last_op: update
-    meilisearch:
-        enabled: false
-        image: docker.io/getmeili/meilisearch:v1.42.1
-        port: 7700
-        extra_ports: []
-        last_op: update
     mariadb-11-8:
         enabled: true
         image: docker.io/library/mariadb:11.8
         port: 3306
         extra_ports: []
         last_op: update
+    meilisearch:
+        enabled: false
+        image: docker.io/getmeili/meilisearch:v1.42.1
+        port: 7700
+        extra_ports: []
+        last_op: update
+    mysql:
+        enabled: true
+        image: ""
+        port: 3306
+        extra_ports: []
     mysql-9-7:
         enabled: true
         image: docker.io/library/mysql:9.7.2
@@ -51,6 +58,11 @@ services:
         port: 8080
         extra_ports: []
         last_op: update
+    postgres:
+        enabled: true
+        image: ""
+        port: 5432
+        extra_ports: []
     redis:
         enabled: true
         image: docker.io/library/redis:7.4.10-alpine
@@ -69,6 +81,7 @@ services:
         image: docker.io/rustfs/rustfs:latest
         port: 9000
         extra_ports: []
+        domain: rustfs.test
         last_op: update
     typesense:
         enabled: false
