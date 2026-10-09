@@ -87,6 +87,12 @@ composer global show --name-only --direct > ./composer.txt
 
 ## flatpak
 
+### configuration
+
+```sh
+flatpak remote-add --if-not-exists flatpark https://dl.flatpark.org/flatpark.flatpakrepo
+```
+
 ### import
 
 ```sh
@@ -103,6 +109,7 @@ flatpak list --system --app --columns=application > ./flatpak.txt
 
 ```sh
 sudo ln -sf /var/lib/flatpak/exports/bin/app.zen_browser.zen /usr/local/bin/zen
+sudo ln -sf /var/lib/flatpak/exports/bin/com.dbxio.dbx /usr/local/bin/dbx
 sudo ln -sf /var/lib/flatpak/exports/bin/com.obsproject.Studio /usr/local/bin/obs
 sudo ln -sf /var/lib/flatpak/exports/bin/fr.handbrake.ghb /usr/local/bin/handbrake
 sudo ln -sf /var/lib/flatpak/exports/bin/io.dbeaver.DBeaverCommunity /usr/local/bin/dbeaver

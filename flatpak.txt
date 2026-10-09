@@ -1,4 +1,5 @@
 app.zen_browser.zen
+com.dbxio.dbx
 com.obsproject.Studio
 fr.handbrake.ghb
 io.dbeaver.DBeaverCommunity
