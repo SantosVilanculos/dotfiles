@@ -36,6 +36,11 @@ fi
 ### LERD
 export LERD_OFFLINE=1
 
+### OPENCODE
+if [ -d "$HOME/.opencode/bin" ]; then
+  export PATH="$PATH:$HOME/.opencode/bin"
+fi
+
 ### PNPM
 if [ -d "$HOME/.local/share/pnpm" ]; then
   export PNPM_HOME="$HOME/.local/share/pnpm"
