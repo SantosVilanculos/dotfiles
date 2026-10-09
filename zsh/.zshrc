@@ -136,14 +136,16 @@ alias tinker="php artisan tinker"
 alias shadcn="pnpm dlx shadcn@latest"
 
 # ---
-update () {
-    sudo apt update && sudo apt upgrade -y
-    flatpak update -y
-    code --update-extensions
-    antigravity --update-extensions
-    npm update -g
-    composer global upgrade
-    omz update
+update() {
+  sudo apt update && sudo apt upgrade -y
+  flatpak update -y
+  code --update-extensions
+  cursor --update-extensions
+  sudo npm update -g
+  composer global upgrade
+  omz update
+  opencode upgrade
+  lerd update
 }
 
 volume () {
