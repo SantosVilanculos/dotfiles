@@ -1,8 +1,8 @@
 return {
   {
     "olimorris/onedarkpro.nvim",
-    priority = 1000,
-    lazy = false,
+    -- priority = 1000,
+    -- lazy = false,
     -- onedark
     -- onelight
     -- onedark_vivid
@@ -11,8 +11,9 @@ return {
   },
   {
     "projekt0n/github-nvim-theme",
-    -- priority = 1000,
-    -- lazy = false,
+    priority = 1000,
+    lazy = false,
+    -- github_light
     -- github_dark_dimmed
     -- github_dark_default
     -- github_light_default
@@ -78,7 +79,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "onedark",
+      colorscheme = "github_light",
     },
   },
 }
