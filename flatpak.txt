@@ -1,5 +1,6 @@
 app.zen_browser.zen
 com.dbxio.dbx
+com.jgraph.drawio.desktop
 com.obsproject.Studio
 fr.handbrake.ghb
 io.dbeaver.DBeaverCommunity
