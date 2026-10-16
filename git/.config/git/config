@@ -9,7 +9,7 @@
 [commit]
     verbose = true
 [core]
-	editor = code
+	editor = nvim
     # fsmonitor = true
     # untrackedCache = true
 [diff]
@@ -46,3 +46,9 @@
 	email = santosvilanculos@yahoo.com
     name = Santos Vilanculos
 # https://blog.gitbutler.com/how-git-core-devs-configure-git
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
