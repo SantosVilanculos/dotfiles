@@ -1,0 +1,155 @@
+{
+  "breadcrumbs.enabled": false,
+  "cursor.general.indexRepositoriesForInstantGrep": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  // === <Ioskeley Mono> ===
+  "editor.fontFamily": "Ioskeley Mono Semi-Condensed",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "500",
+  "editor.fontSize": 14.5,
+  "editor.lineHeight": 32,
+  // === </Ioskeley Mono> ===
+  // === <Geist Mono> ===
+  // "editor.fontFamily": "Geist Mono",
+  // "editor.fontLigatures": "'ss11'",
+  // "editor.fontWeight": "400",
+  // "editor.fontSize": 14,
+  // "editor.lineHeight": 28,
+  // === </Geist Mono> ===
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+    "other": "off",
+    // "comments": "off",
+    // "strings": "off",
+  },
+  "editor.scrollBeyondLastLine": false,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.snippetSuggestions": "bottom",
+  "editor.stickyScroll.enabled": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "js/ts.preferences.autoImportSpecifierExcludeRegexes": ["cn", "cnfast"],
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "php.suggest.basic": false,
+  "terminal.integrated.fontFamily": "IoskeleyMono Nerd Font",
+  "window.commandCenter": false,
+  "workbench.activityBar.location": "top",
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "workbench.sideBar.location": "right",
+  //
+  "console-ninja.featureSet": "Community",
+  //
+  "containers.containerClient": "com.microsoft.visualstudio.containers.podman",
+  "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.podmancompose",
+  //
+  "cSpell.language": "en,pt",
+  //
+  "Laravel.pint.runOnSave": true,
+  //
+  "mermaidChart.preCommitSync.enabled": false,
+  "mermaidChart.showGenerateDiagramCodeLens": false,
+  //
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.leader": "<space>",
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
+  "vim.handleKeys": {
+    "<C-b>": false,
+    "<C-d>": false,
+    "<C-f>": false,
+    "<C-h>": false,
+    "<C-j>": false,
+    "<C-p>": false,
+    "<C-w>": false,
+  },
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "b", "d"],
+      "commands": ["workbench.action.closeActiveEditor"],
+      "silent": true,
+    },
+    {
+      "before": ["<leader>", "b", "l"],
+      "commands": ["workbench.action.closeEditorsToTheLeft"],
+      "silent": true,
+    },
+    {
+      "before": ["<leader>", "b", "r"],
+      "commands": ["workbench.action.closeEditorsToTheRight"],
+      "silent": true,
+    },
+    {
+      "before": ["<leader>", "b", "o"],
+      "commands": ["workbench.action.closeOtherEditors"],
+      "silent": true,
+    },
+    {
+      "before": ["<leader>", "f", "f"],
+      "commands": ["workbench.action.quickOpen"],
+      "silent": true,
+    },
+    {
+      "before": ["<leader>", "<leader>"],
+      "commands": ["workbench.action.quickOpen"],
+      "silent": true,
+    },
+    {
+      "before": ["<S-k>"],
+      "commands": ["editor.action.showDefinitionPreviewHover"],
+      "silent": true,
+    },
+    {
+      "before": ["u"],
+      "commands": ["undo"],
+      "silent": true,
+    },
+    {
+      "before": ["<C-r>"],
+      "commands": ["redo"],
+      "silent": true,
+    },
+    {
+      "before": ["<C-a>"],
+      "after": ["g", "g", "<S-v>", "G"],
+      "silent": true,
+    },
+    {
+      "before": ["[", "d"],
+      "commands": ["editor.action.marker.prev"],
+      "silent": true,
+    },
+    {
+      "before": ["]", "d"],
+      "commands": ["editor.action.marker.next"],
+      "silent": true,
+    },
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<Tab>"],
+      "after": [">", "g", "v"],
+      "silent": true,
+    },
+    {
+      "before": ["<S-Tab>"],
+      "after": ["<", "g", "v"],
+      "silent": true,
+    },
+  ],
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1,
+  },
+  //
+  "js/ts.tsserver.maxMemory": 2048,
+  "task.problemMatchers.neverPrompt": {
+    "shell": true,
+  },
+  "extensions.autoUpdate": false,
+  "workbench.agentsWindowButton.enabled": false,
+}
